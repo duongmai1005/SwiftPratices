@@ -1,0 +1,7 @@
+# If you created a ViewController before and now you want to create a XIB file associated with the ViewController. Follow these steps below.
+
+1. First create a XIB file. We should name the XIB file the same as the ViewController we want to connect for better categorising.
+2. Open the XIB file and look for File's Owner section.
+3. Click on File's Owner section, on the right hand side look for Custom Class section. Put the ViewController class to the Class field to connect.
+4. After that, navigate to Outlet section, drag the outlet of the View to the View in XIB file.
+5. Save and enjoy.
